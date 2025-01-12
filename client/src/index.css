@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* outline: 1px solid lime; */
+}
+
+body,
+#root {
+    font-family: "Roboto Condensed", sans-serif;
+    min-height: 100dvh;
+}
+.css-179n22a {
+    padding: 10px !important;
+}
